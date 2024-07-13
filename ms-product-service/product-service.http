@@ -1,0 +1,22 @@
+### GET products list
+GET http://localhost:7501/v1/products
+
+###
+
+### GET product by id
+GET http://localhost:7501/v1/products/1
+
+###
+
+### POST product
+POST http://localhost:7501/v1/products
+Content-Type: application/json
+
+{
+   "name": "AKAI Professional MPK Mini Plus",
+   "category": "MUSICAL_INSTRUMENTS",
+   "quantity": 10,
+   "price": 156.09
+}
+
+###

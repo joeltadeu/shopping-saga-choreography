@@ -1,0 +1,36 @@
+### GET summary list of orders by customer id
+GET http://localhost:7500/v1/customers/1/orders
+
+###
+
+### GET Order by order Id
+GET http://localhost:7500/v1/customers/1/orders/23
+
+###
+
+### POST create order
+POST http://localhost:7500/v1/customers/1/orders
+Content-Type: application/json
+
+{
+  "payment": {
+    "cardNumber": "4000000000000002",
+    "expirationMonth": "12",
+    "expirationYear": "34",
+    "cvc": "117"
+  },
+  "items": [
+    {
+      "productId": 1,
+      "quantity": 1,
+      "price": 299.00
+    },
+    {
+      "productId": 2,
+      "quantity": 1,
+      "price": 156.09
+    }
+  ]
+}
+
+###

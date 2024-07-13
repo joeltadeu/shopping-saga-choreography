@@ -1,0 +1,20 @@
+package com.shopping.product.entity;
+
+public enum ProductCategory {
+    BEAUTY,
+    BOOKS,
+    CAMERA_PHOTO,
+    CELLPHONE,
+    CONSUMER_ELECTRONICS,
+    HEALTH_PERSONAL_CARE,
+    HOME_GARDEN,
+    MUSIC_DVD,
+    MUSICAL_INSTRUMENTS,
+    PERSONAL_COMPUTERS,
+    TOY_GAMES,
+    SPORTS,
+    TOOLS_HOME_IMPROVEMENT,
+    VIDEO_DVD_BLUE_RAY,
+    VIDEO_GAMES,
+    WATCHES
+}
